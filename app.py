@@ -4,7 +4,11 @@ def add(a, b):
 def subtract(a, b):
     return a - b
 
-operation = input("Enter operation (+ or -): ")
+# Added multiply
+def multiply(a, b):
+    return a * b
+
+operation = input("Enter operation (+,* or -): ")
 num1 = int(input("Enter the first number: "))
 num2 = int(input("Enter the second number: "))
 
